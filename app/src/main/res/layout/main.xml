@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="407dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginEnd="48dp"
+        android:layout_marginBottom="124dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/main_title"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:text="Uygulama"
+            android:textAlignment="center"
+            android:textSize="32sp" />
+
+        <Button
+            android:id="@+id/main_sign"
+            android:layout_width="match_parent"
+            android:layout_height="66dp"
+            android:layout_marginStart="20sp"
+            android:layout_marginEnd="20sp"
+            android:text="GIRIS YAP"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/main_register"
+            android:layout_width="match_parent"
+            android:layout_height="66dp"
+            android:layout_marginStart="20sp"
+            android:layout_marginEnd="20sp"
+            android:text="KAYIT OL"
+            android:textSize="20sp" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
